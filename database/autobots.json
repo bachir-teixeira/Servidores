@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nome": "Optimus Prime",
+    "faccao": "Autobot",
+    "funcao": "Líder dos Autobots",
+    "veiculo": "Caminhão Peterbilt 379",
+    "arma": "Ion Blaster e Energon Axe",
+    "forca": 95,
+    "descricao": "Líder nobre e corajoso dos Autobots. Acredita que toda vida senciente tem direito à liberdade. Portador da Matrix da Liderança."
+  },
+  {
+    "id": 2,
+    "nome": "Bumblebee",
+    "faccao": "Autobot",
+    "funcao": "Batedor e Espião",
+    "veiculo": "Chevrolet Camaro Amarelo",
+    "arma": "Plasma Cannon e Ferrão",
+    "forca": 80,
+    "descricao": "Um dos Autobots mais jovens e leais a Optimus. Não consegue falar com voz normal, se comunica por rádio. Melhor amigo dos humanos."
+  },
+  {
+    "id": 3,
+    "nome": "Arcee",
+    "faccao": "Autobot",
+    "funcao": "Guerreira de Elite",
+    "veiculo": "Moto Rosa Cybertroniana",
+    "arma": "Lâminas duplas e Blaster",
+    "forca": 85,
+    "descricao": "Guerreira ágil e mortal. Especialista em combate corpo a corpo. Uma das poucas Autobots femininas e muito habilidosa."
+  },
+  {
+    "id": 4,
+    "nome": "Ratchet",
+    "faccao": "Autobot",
+    "funcao": "Médico e Cientista",
+    "veiculo": "Ambulância Hummer H2",
+    "arma": "Ferramentas médicas e Serra de corte",
+    "forca": 70,
+    "descricao": "Médico ranzinza mas com bom coração. Responsável por consertar todos os Autobots feridos em batalha. Velho amigo de Optimus."
+  },
+  {
+    "id": 5,
+    "nome": "Ironhide",
+    "faccao": "Autobot",
+    "funcao": "Especialista em Armas",
+    "veiculo": "GMC Topkick Preta",
+    "arma": "Canhoes duplos pesados",
+    "forca": 90,
+    "descricao": "O mais forte e durão dos Autobots depois de Optimus. Especialista em armas pesadas. Não gosta de humanos mas protege eles."
+  }
+]

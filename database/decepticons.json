@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nome": "Megatron",
+    "faccao": "Decepticon",
+    "funcao": "Líder Supremo",
+    "veiculo": "Jato Cybertroniano / Tanque",
+    "arma": "Fusion Cannon",
+    "forca": 98,
+    "descricao": "Tirano cruel e líder dos Decepticons. Irmão de armas de Optimus no passado. Quer dominar todo o universo com o AllSpark."
+  },
+  {
+    "id": 2,
+    "nome": "Starscream",
+    "faccao": "Decepticon",
+    "funcao": "Segundo em Comando / Traidor",
+    "veiculo": "F-22 Raptor",
+    "arma": "Null Ray e Mísseis",
+    "forca": 88,
+    "descricao": "Traiçoeiro e ambicioso. Quer tomar o lugar de Megatron como líder. Covarde quando está sozinho, mas muito perigoso no ar."
+  },
+  {
+    "id": 3,
+    "nome": "Soundwave",
+    "faccao": "Decepticon",
+    "funcao": "Chefe de Inteligência",
+    "veiculo": "Satélite / Mercedes",
+    "arma": "Sonic Cannon e Cassetes",
+    "forca": 84,
+    "descricao": "Leal 100% a Megatron. Nunca fala mais que o necessário. Carrega dentro dele outros Decepticons menores como Ravage e Laserbeak."
+  },
+  {
+    "id": 4,
+    "nome": "Shockwave",
+    "faccao": "Decepticon",
+    "funcao": "Cientista Louco",
+    "veiculo": "Canhao Cybertroniano",
+    "arma": "AstroMag Cannon",
+    "forca": 92,
+    "descricao": "Lógico puro, sem emoções. Deixado por Megatron para cuidar de Cybertron. Seu único objetivo é a lógica e o poder."
+  },
+  {
+    "id": 5,
+    "nome": "Barricade",
+    "faccao": "Decepticon",
+    "funcao": "Caçador",
+    "veiculo": "Ford Mustang de Polícia",
+    "arma": "Mace e Blaster",
+    "forca": 78,
+    "descricao": "Policial Decepticon caçador de Autobots. Rival direto de Bumblebee desde Cybertron."
+  }
+]
