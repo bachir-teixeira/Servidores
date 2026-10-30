@@ -1,5 +1,3 @@
 .env
 node_modules 
 src/database/database.json 
-package.json
-package-lock.json
