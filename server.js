@@ -1,18 +1,29 @@
+const fs = require('fs').promises
 const express = require('express')
-const fs = require('fs').promises 
 const cors = require('cors')
-const app = express() 
+const app = express()
+app.use(express.json())
 app.use(cors())
-app.use(express.json()) 
 
-const ler = async () => {
-  const lendo = await fs.readFile('./database/autobots.json','utf8')
-  const banco = JSON.parse(lendo) 
-  return banco
-  
+async function ler(){
+  try{ 
+  const [ autobotsdb, decepticonsdb] = await Promise.all([fs.readFile('./database/autobots.json','utf8'), fs.readFile('./database/decepticons.json','utf8')])  
+  const autobots = JSON.parse(autobotsdb) 
+  const decepticons = JSON.parse(decepticonsdb) 
+  return { autobots, decepticons}
+  }
+  catch {
+    console.log('ERRO: erro au tentar ler banco de dados')
+  }
 }
-app.get('/maquinas', async (req,res) => { 
-  const banco = await ler() 
+app.get('/transformers', async (req,res) => {
+  try{ 
+  const banco = await ler()
   res.json(banco)
+  } 
+  catch{
+    console.log('ERRO: erro ao tentar enviar os arquivos')
+  }
 })
-app.listen(3000, ()=> console.log('ligado'))
+
+app.listen(3000,() => console.log('rodando em http:localhost:3000'))

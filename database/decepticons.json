@@ -2,51 +2,82 @@
   {
     "id": 1,
     "nome": "Megatron",
-    "faccao": "Decepticon",
-    "funcao": "Líder Supremo",
-    "veiculo": "Jato Cybertroniano / Tanque",
-    "arma": "Fusion Cannon",
-    "forca": 98,
-    "descricao": "Tirano cruel e líder dos Decepticons. Irmão de armas de Optimus no passado. Quer dominar todo o universo com o AllSpark."
+    "veiculo": "Jato Cybertroniano",
+    "arma": "Canhao de Fusao e maça Energon",
+    "descricao": "Líder cruel e tirano dos Decepticons, irmão caído de Optimus com sede de poder.",
+    "foto": "https://upload.wikimedia.org/wikipedia/en/f/ff/Megatron_transformers.jpg",
+    "saga": 1
   },
   {
     "id": 2,
     "nome": "Starscream",
-    "faccao": "Decepticon",
-    "funcao": "Segundo em Comando / Traidor",
     "veiculo": "F-22 Raptor",
-    "arma": "Null Ray e Mísseis",
-    "forca": 88,
-    "descricao": "Traiçoeiro e ambicioso. Quer tomar o lugar de Megatron como líder. Covarde quando está sozinho, mas muito perigoso no ar."
+    "arma": "Misseis e canhoes de pulso",
+    "descricao": "Segundo em comando traidor e ambicioso, sempre tenta tomar o lugar de Megatron.",
+    "foto": "https://upload.wikimedia.org/wikipedia/en/5/5d/Starscream_the_transformer.jpg",
+    "saga": 1
   },
   {
     "id": 3,
-    "nome": "Soundwave",
-    "faccao": "Decepticon",
-    "funcao": "Chefe de Inteligência",
-    "veiculo": "Satélite / Mercedes",
-    "arma": "Sonic Cannon e Cassetes",
-    "forca": 84,
-    "descricao": "Leal 100% a Megatron. Nunca fala mais que o necessário. Carrega dentro dele outros Decepticons menores como Ravage e Laserbeak."
+    "nome": "Barricade",
+    "veiculo": "Ford Mustang Saleen Polícia",
+    "arma": "Maça giratória e garras",
+    "descricao": "Batedor sádico e brutal, disfarçado de carro de polícia para caçar humanos.",
+    "foto": "https://upload.wikimedia.org/wikipedia/en/8/8f/Barricade_the_transformer.jpg",
+    "saga": 1
   },
   {
     "id": 4,
-    "nome": "Shockwave",
-    "faccao": "Decepticon",
-    "funcao": "Cientista Louco",
-    "veiculo": "Canhao Cybertroniano",
-    "arma": "AstroMag Cannon",
-    "forca": 92,
-    "descricao": "Lógico puro, sem emoções. Deixado por Megatron para cuidar de Cybertron. Seu único objetivo é a lógica e o poder."
+    "nome": "The Fallen",
+    "veiculo": "Nave Cybertroniana Ancestral",
+    "arma": "Telecinese e cetro de energia",
+    "descricao": "Prime ancestral caído, criador dos Decepticons e um dos seres mais poderosos.",
+    "foto": "https://static.wikia.nocookie.net/transformers/images/c/c3/TheFallen_ROTF.jpg",
+    "saga": 2
   },
   {
     "id": 5,
-    "nome": "Barricade",
-    "faccao": "Decepticon",
-    "funcao": "Caçador",
-    "veiculo": "Ford Mustang de Polícia",
-    "arma": "Mace e Blaster",
-    "forca": 78,
-    "descricao": "Policial Decepticon caçador de Autobots. Rival direto de Bumblebee desde Cybertron."
+    "nome": "Soundwave",
+    "veiculo": "Satélite Cybertroniano",
+    "arma": "Canhoes sônicos e controle de Ravage",
+    "descricao": "Oficial de comunicações frio e leal, mestre da espionagem e da escuta.",
+    "foto": "https://static.wikia.nocookie.net/transformers/images/b/b5/Soundwave_ROTF.jpg",
+    "saga": 2
+  },
+  {
+    "id": 6,
+    "nome": "Shockwave",
+    "veiculo": "Tanque Cybertroniano",
+    "arma": "Canhao AstroMag e Driller",
+    "descricao": "Cientista frio e lógico, sem emoções, com um canhão gigante no braço.",
+    "foto": "https://static.wikia.nocookie.net/transformers/images/b/b1/Shockwave_DOTM.jpg",
+    "saga": 3
+  },
+  {
+    "id": 7,
+    "nome": "Galvatron",
+    "veiculo": "Freightliner Argosy",
+    "arma": "Canhao de partículas e controle de drones",
+    "descricao": "Renascimento de Megatron feito por humanos, manipulador e extremamente vingativo.",
+    "foto": "https://static.wikia.nocookie.net/transformers/images/b/b8/Galvatron_AOE.jpg",
+    "saga": 4
+  },
+  {
+    "id": 8,
+    "nome": "Lockdown",
+    "veiculo": "Lamborghini Aventador",
+    "arma": "Gancho e extrator de Spark",
+    "descricao": "Caçador de recompensas profissional, frio e sem lado, trabalha para os Criadores.",
+    "foto": "https://static.wikia.nocookie.net/transformers/images/9/9a/Lockdown_AOE.jpg",
+    "saga": 4
+  },
+  {
+    "id": 9,
+    "nome": "Nitro Zeus",
+    "veiculo": "JAS 39 Gripen",
+    "arma": "Misseis pesados e metralhadoras",
+    "descricao": "Caçador arrogante e barulhento, se gaba de ser o mais letal dos Decepticons.",
+    "foto": "https://static.wikia.nocookie.net/transformers/images/d/d5/NitroZeus_TLK.jpg",
+    "saga": 5
   }
 ]
