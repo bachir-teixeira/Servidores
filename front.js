@@ -1,8 +1,7 @@
-function ler(dados){
-  const { autobots , decepticons } = dados 
-  console.log(autobots)
+async function CarregarAutobots() {
+  const resposta = await fetch('http://localhost:3000/autobots') 
+  const dados =  await resposta.json() 
+  console.log(dados)
 } 
-fetch('http://localhost:3000/transformers')
-.then( recebido => recebido.json())
-.then( visto => ler(visto)) 
 
+CarregarAutobots()

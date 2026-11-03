@@ -2,18 +2,15 @@
   "name": "servidores",
   "version": "1.0.0",
   "description": "Fazendo fetch em servidores",
-  "main": "front.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bachir-teixeira/Servidores.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/bachir-teixeira/Servidores/issues"
@@ -21,6 +18,7 @@
   "homepage": "https://github.com/bachir-teixeira/Servidores#readme",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "path": "^0.12.7"
   }
 }
